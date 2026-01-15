@@ -1,0 +1,37 @@
+.formContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.formContainer form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  width: 100%;
+  max-width: 25rem;
+}
+
+.formContainer form input[type="text"] {
+  width: 20rem;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.formContainer form label {
+  margin-top: 2rem;
+  font-weight: 500;
+}
+
+.formContainer form input[type="color"] {
+  width: 15rem;
+  height: 5rem;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.formContainer form button {
+  margin-top: 1.5rem;
+  width: 8rem;
+  height: 2rem;
+}

@@ -1,0 +1,36 @@
+.dog {
+  display: flex;
+}
+
+.details {
+  margin-left: 2rem;
+  border: 1px solid #b8b8b8;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  width: 25vw;
+}
+
+.nameAge {
+  display: flex;
+  align-items: baseline;
+  gap: 0.8rem;
+  height: 100px;
+  padding: 0;
+  margin: 0;
+}
+
+.name {
+  font-size: 3rem;
+  line-height: 0.1;
+}
+
+.age {
+  font-size: 2.5rem;
+  line-height: 0.1;
+}
+
+.facts ul {
+  list-style-type: none;
+  text-align: start;
+  font-size: 2rem;
+}
