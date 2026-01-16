@@ -11,6 +11,7 @@ export default function Color({ colors }) {
       <div
         style={{ backgroundColor: color.color }}
         className={styles.background}
+        data-testid="color-details"
       >
         <h1>THIS IS {color.name.toUpperCase()}.</h1>
         <h2>ISNT IT BEAUTIFUL?</h2>

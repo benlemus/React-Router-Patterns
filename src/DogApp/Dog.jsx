@@ -11,7 +11,7 @@ export default function Dog({ dogData }) {
 
   return (
     <>
-      <div className="content">
+      <div className="content" data-testid="dogDetails">
         <div className={styles.dogContainer}>
           <div className={styles.dog} key={uuidv4()}>
             <img src={dog.src} alt={`dog-${dog.src}`} />

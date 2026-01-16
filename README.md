@@ -31,6 +31,10 @@ Can be viewed at http://localhost:5173/ in the browser.
 Runs the developmenal server for the Calculator App.
 Can be viewed at http://localhost:5173/ in the browser.
 
+### `npm run test`
+
+Runs Vitest suite to test all 3 apps.
+
 ## Screenshots
 
 ### Dog Directory
