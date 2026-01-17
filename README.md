@@ -12,7 +12,7 @@ This is a page that saves colors in the localStorage and has seperate pages usin
 
 ### `Calculator`
 
--- in progress --
+This is a calculator that supports addition, subtraction, multiplication and division. Depending on the operator, it will send a new route to figure out the answer and redirect back all while staying on the calculator page.
 
 ## Available Scripts
 
@@ -31,7 +31,7 @@ Can be viewed at http://localhost:5173/ in the browser.
 Runs the developmenal server for the Calculator App.
 Can be viewed at http://localhost:5173/ in the browser.
 
-### `npm run test`
+### `npm test`
 
 Runs Vitest suite to test all 3 apps.
 
@@ -48,3 +48,5 @@ Runs Vitest suite to test all 3 apps.
 ![Color Add Page](screenshots/colorApp2.png)
 
 ### Calculator
+
+![Calculator Page](screenshots/calcApp1.png)

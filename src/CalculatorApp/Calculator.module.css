@@ -1,0 +1,89 @@
+.calcContainer {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+}
+
+.result {
+  border: 2px solid rgb(92, 92, 92);
+  width: 21vw;
+  height: 10vh;
+  font-size: 5rem;
+}
+
+.operatorsContainer {
+  display: grid;
+  grid-template-columns: 5.5vw 5vw 5vw 5.5vw;
+  font-size: 5rem;
+}
+
+.operatorsContainer div {
+  width: 5vw;
+  text-align: center;
+  border: 2px solid rgb(92, 92, 92);
+}
+
+.operatorsContainer div:nth-child(1) {
+  width: 5.5vw;
+}
+
+.operatorsContainer div:nth-child(4) {
+  width: 5.5vw;
+}
+
+.operatorsContainer label {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.numbersContainer {
+  display: grid;
+  grid-template-columns: 7vw 7vw 7vw;
+  font-size: 5rem;
+}
+
+.numbersContainer div {
+  width: 7vw;
+  text-align: center;
+  border: 2px solid rgb(92, 92, 92);
+}
+
+.numbersContainer label {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.zeroEquals {
+  display: grid;
+  grid-template-columns: 7vw 7vw 7.12vw;
+  font-size: 5rem;
+}
+
+.zeroEquals div {
+  width: 7vw;
+  text-align: center;
+  border: 2px solid rgb(92, 92, 92);
+}
+
+.zeroEquals label {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.zeroEquals button {
+  cursor: pointer;
+  font-size: 5rem;
+  border: 2px solid rgb(92, 92, 92);
+}
